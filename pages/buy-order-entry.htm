@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Buy Order Entry | Share Management System</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<!-- Date Time Picker -->
+		<link rel="stylesheet" href="../css/vendors/date-time-picker/tempusdominus-bootstrap-4.min.css" />
+	</head>
+	<body class="sidebar-toggled">
+		<!-- Page Wrapper Start -->
+		<div id="wrapper">
+			<!-- Sidebar Start -->
+			<ul class="navbar-nav sidebar toggled" id="accordionSidebar">
+				<!-- Sidebar - Brand -->
+				<li>
+					<a href="javascript:;" class="sidebar-brand d-flex align-items-center justify-content-center">
+						<div class="sidebar-brand-icon">
+							<img src="../images/common/logo.png" alt="Logo" class="img-fluid">
+						</div>
+					</a>
+				</li>
+				<li>
+					<!-- Divider -->
+					<hr class="sidebar-divider">
+				</li>
+				<!-- Nav Item - Home -->
+				<li class="nav-item">
+					<a class="nav-link" href="javascript:;">
+					<i class="sms-icon-home"></i><span>Home</span>
+					</a>
+				</li>
+				<!-- Nav Item - Share Trading -->
+				<li class="nav-item active">
+					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#shareTrading" aria-expanded="true" aria-controls="shareTrading">
+					<i class="sms-icon-trading"></i><span>Share Trading</span>
+					</a>
+					<div id="shareTrading" class="collapse shadow" aria-labelledby="shareTrading" data-parent="#accordionSidebar">
+						<div class="sidebarDropdown collapse-inner">
+							<a class="collapse-item" href="javascript:;">Page Link</a>
+							<a class="collapse-item" href="javascript:;">Page Link</a>
+						</div>
+					</div>
+				</li>
+				<!-- Nav Item - Payment/Dividend -->
+				<li class="nav-item">
+					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#paymentDividend" aria-expanded="true" aria-controls="paymentDividend">
+					<i class="sms-icon-payment-dividend"></i><span>Payment / Dividend</span>
+					</a>
+					<div id="paymentDividend" class="collapse shadow" aria-labelledby="paymentDividend" data-parent="#accordionSidebar">
+						<div class="sidebarDropdown collapse-inner">
+							<a class="collapse-item" href="javascript:;">Page Link</a>
+							<a class="collapse-item" href="javascript:;">Page Link</a>
+						</div>
+					</div>
+				</li>
+				<!-- Nav Item - Report -->
+				<li class="nav-item">
+					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#report" aria-expanded="true" aria-controls="report">
+					<i class="sms-icon-file-fill"></i><span>Reports</span>
+					</a>
+					<div id="report" class="collapse shadow" aria-labelledby="report" data-parent="#accordionSidebar">
+						<div class="sidebarDropdown collapse-inner">
+							<a class="collapse-item" href="javascript:;">Page Link</a>
+							<a class="collapse-item" href="javascript:;">Page Link</a>
+						</div>
+					</div>
+				</li>
+				<!-- Nav Item - Contact -->
+				<li class="nav-item">
+					<a class="nav-link" href="javascript:;">
+					<i class="sms-icon-contact"></i><span>Contact</span>
+					</a>
+				</li>
+				<!-- Nav Item - Tips -->
+				<li class="nav-item d-md-none">
+					<a class="nav-link" href="javascript:;">
+					<i class="sms-icon-tips"></i><span>Tips</span>
+					</a>
+				</li>
+				<!-- Nav Item - Logout -->
+				<li class="nav-item d-md-none">
+					<a class="nav-link" href="javascript:;">
+					<i class="sms-icon-logout"></i><span>Logout</span>
+					</a>
+				</li>
+			</ul>
+			<!-- Sidebar End -->
+			<!-- Content Wrapper Start -->
+			<div id="content-wrapper" class="d-flex flex-column">
+				<!-- Main Content Start -->
+				<div id="content">
+					<!-- Topbar Start -->
+					<nav class="navbar navbar-expand topbar">
+						<!-- Sidebar Toggle (Topbar) For Mobile Start -->
+						<button id="sidebarToggleTop" class="d-md-none"><i class="sms-icon-menu"></i></button>
+						<!-- Sidebar Toggle (Topbar) For Mobile End  -->
+						<h4 class="heading-text sms-heading">Share Management System</h4>
+						<ul class="navbar-nav ml-auto">
+							<li>
+								<div class="topbar-divider d-none d-sm-block"></div>
+							</li>
+							<!-- Nav Item - User Information Start -->
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="mr-2 small">Shareholder ID - <span class="link-primary-text">100100001</span></span>
+								</a>
+								<a class="nav-link" href="javascript:;">
+									<div class="d-none d-lg-inline small">
+										<i class="sms-icon-tips"></i>
+										<span>Tips</span>
+									</div>
+								</a>
+								<a class="nav-link" href="javascript:;">
+									<div class="d-none d-lg-inline small">
+										<i class="sms-icon-logout"></i>
+										<span>Logout</span>
+									</div>
+								</a>
+								<!-- Dropdown - User Information Start -->
+								<div class="dropdown-menu dropdown-menu-right shadow" aria-labelledby="userDropdown">
+									<a class="dropdown-item" href="#">
+									Action Link
+									</a>
+									<a class="dropdown-item" href="#">
+									Action Link
+									</a>
+									<a class="dropdown-item" href="#">
+									Action Link
+									</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">
+									Action Link
+									</a>
+								</div>
+								<!-- Dropdown - User Information End -->
+							</li>
+							<!-- Nav Item - User Information End -->
+						</ul>
+					</nav>
+					<!-- Topbar End -->
+					<!-- Page Content Start -->
+					<div class="container-fluid">
+						<div class="row">
+							<!-- Buy Order Entry Container Start -->
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 buy-order-entry-container">
+								<div class="sms-card">
+									<div class="card-header-primary-text">Buy Order Entry</div>
+									<!-- Buy Order Form Start -->
+									<form class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+												<div class="form-group">
+													<label class="label-text" for="buy-order-shareholder-id">Shareholder ID</label>
+													<input type="text" class="form-control primary-input" id="buy-order-shareholder-id" aria-describedby="buy-order-shareholder-id-help" placeholder="Enter Shareholder ID">
+													<!-- <small id="buy-order-shareholder-id-help" class="form-text text-muted">Error Message.</small> -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+												<div class="form-group">
+													<label class="label-text" for="buy-order-registered-id">Registered ID</label>
+													<input type="text" class="form-control primary-input" id="buy-order-registered-id" aria-describedby="buy-order-registered-id-help" placeholder="Enter Registered ID">
+													<!-- <small id="buy-order-registered-id-help" class="form-text text-muted">Error Message.</small> -->
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+												<div class="form-group">
+													<label class="label-text" for="buy-order-shareholder-name">Shareholder Name</label>
+													<input type="text" class="form-control primary-input" id="buy-order-shareholder-name" aria-describedby="buy-order-shareholder-name-help" placeholder="Enter Shareholder Name">
+													<!-- <small id="buy-order-shareholder-name-help" class="form-text text-muted">Error Message.</small> -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+												<div class="form-group">
+													<label class="label-text" for="buy-order-nrc">NRC/CRC</label>
+													<input type="text" class="form-control primary-input" id="buy-order-nrc" aria-describedby="buy-order-nrc-help" placeholder="Enter NRC/CRC">
+													<!-- <small id="buy-order-nrc-help" class="form-text text-muted">Error Message.</small> -->
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+												<div class="form-group">
+													<label class="label-text" for="buy-order-share-type">Share Type</label>
+													<select class="form-control" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false, "fakeDropInBody": false, "useCustomScroll": false}' aria-describedby="buy-order-share-type-help" id="buy-order-share-type">
+														<option value="share-type">Select Share Type</option>
+														<option class="optionText" value="Ordinary">Ordinary</option>
+														<option class="optionText" value="Prefered">Prefered</option>
+													</select>
+													<!-- <small id="buy-order-share-type-help" class="form-text text-muted">Error Message.</small> -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+												<div class="form-group">
+													<label class="label-text" for="buy-order-quantity">Quantity</label>
+													<input type="number" class="form-control primary-number-input" id="buy-order-quantity" aria-describedby="buy-order-quantity-help" placeholder="Enter Quantity">
+													<!-- <small id="buy-order-quantity-help" class="form-text text-muted">Error Message.</small> -->
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+												<div class="form-group">
+													<label class="label-text" for="buy-order-price">Price</label>
+													<input type="number" class="form-control primary-number-input" id="buy-order-price" aria-describedby="buy-order-price-help" placeholder="Enter Price">
+													<!-- <small id="buy-order-price-help" class="form-text text-muted">Error Message.</small> -->
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+												<div class="form-group date-time-picker-container">
+													<label class="label-text" for="buy-order-expiry-date">Expiry Date</label>
+													<input 
+													type="text" 
+													class="form-control datetimepicker-input primary-date" 
+													id="buy-order-expiry-date" 
+													data-toggle="datetimepicker" 
+													data-target="#buy-order-expiry-date" 
+													placeholder="Select Expiry Date" 
+													aria-describedby="buy-order-expiry-date-help"/>
+													<div class="primary-date-icon">
+														<i class="sms-icon-calender"></i>
+													</div>
+													<!-- <small id="buy-order-expiry-date-help" class="form-text text-muted">Error Message.</small> -->
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+												<div class="form-group">
+													<button class="btn disable-btn">Reset</button>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+												<div class="form-group">
+													<button class="btn primary-btn">Confirm</button>
+												</div>
+											</div>
+										</div>
+									</form>
+									<!-- Buy Order Form Start -->
+								</div>
+							</div>
+							<!-- Buy Order Entry Container End -->
+							<!-- Share Status Start -->
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 share-status-container">
+								<!-- Current Share Price Card Start -->
+								<div class="sms-card-info-primary">
+									<div class="sms-card-info-text">
+										<div class="small">Current Share Price</div>
+										<h3>500,000</h3>
+									</div>
+									<div class="sms-card-info-graph">
+										<img src="../images/illustrations/graph.svg" class="img-fluid">
+									</div>
+								</div>
+								<!-- Current Share Price Card End -->
+								<!-- Buy Order Card Start -->
+								<div class="sms-card-info-secondary">
+									<div class="sms-card-info-text">
+										<h3>Buy Order</h3>
+										<p>To place the buying orders by anyone who is a member of the company.</p>
+									</div>
+									<div class="sms-card-info-graph">
+										<object type="image/svg+xml" data="../images/illustrations/order.svg" class="img-fluid" id="order-illustrations">
+										Order Illustrations
+										</object>
+									</div>
+								</div>
+								<!-- Buy Order Card End -->
+							</div>
+							<!-- Share Status End -->
+						</div>
+					</div>
+					<!-- Page Content End -->
+				</div>
+				<!-- Main Content End -->
+				<!-- Footer Start -->
+				<footer class="sticky-footer">
+					<div class="container my-auto">
+						<div class="copyright text-center my-auto">
+							<span class="footer-text">Copyright &copy; 2021 Share Management System. All rights Reserved.</span>
+						</div>
+					</div>
+				</footer>
+				<!-- Footer End -->
+			</div>
+			<!-- Content Wrapper End -->
+		</div>
+		<!-- Page Wrapper End -->
+		<!-- Jquery & Bootstrap Core JavaScript-->
+		<script src="../js/vendors/jqueryv3.4.1/jquery.min.js"></script>
+		<script src="../js/vendors/bootstrapv4.3.1/bootstrap.min.js"></script>
+		<!-- Moment.js JavaScript-->
+		<script src="../js/vendors/date-time-picker/moment.min.js"></script>
+		<!-- Custom Form Components -->
+		<script src="../js/vendors/customform/js/jcf.js"></script>
+		<script src="../js/vendors/customform/js/jcf.number.js"></script>
+		<script src="../js/vendors/customform/js/jcf.file.js"></script>
+		<script src="../js/vendors/customform/js/jcf.select.js"></script>
+		<script src="../js/vendors/customform/js/jcf.checkbox.js"></script>
+		<script src="../js/vendors/customform/js/jcf.radio.js"></script>
+		<!-- Date Time Picker -->
+		<script type="text/javascript" src="../js/vendors/date-time-picker/tempusdominus-bootstrap-4.min.js"></script>
+		<!-- Custom scripts for all pages-->
+		<script src="../js/script.js"></script>
+	</body>
+</html>

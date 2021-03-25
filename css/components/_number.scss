@@ -1,0 +1,59 @@
+//Number
+.jcf-number {
+  width: 100%;
+  background: transparent !important;
+  font-size: 0.9em;
+  box-shadow: var(--no-box-shadow);
+  color: var(--input-default-text) !important;
+  transition: all ease 0.3s;
+  border-radius: 0.25em;
+  height: 40px;
+  box-shadow: var(--default-shadow) 0px 8px 24px;
+
+  .primary-number-input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--no-border);
+    background: transparent !important;
+    box-shadow: var(--default-shadow) 0px 8px 24px;
+    border-radius: 0.25em;
+    color: var(--input-default-text) !important;
+    padding: 0.375rem 0.75rem !important;
+    font-size: 1.05em;
+    height: 40px;
+
+    &:focus {
+      color: var(--input-focus-text) !important;
+    }
+    &:disabled {
+      border: none!important;
+    }
+  }
+
+  &:hover {
+    .primary-number-input {
+      border-style: solid;
+      border-width: 1px;
+      border-color: var(--primary-75) !important;
+      transition: all ease 0.3s;
+    }
+  }
+
+  .jcf-btn-inc,
+  .jcf-btn-dec {
+    background: var(--surface-bakcground);
+    cursor: pointer;
+  }
+
+  .jcf-btn-inc {
+    &::before {
+      border-color: transparent transparent var(--placeholder-text) transparent;
+    }
+  }
+
+  .jcf-btn-dec {
+    &::before {
+      border-color: var(--placeholder-text) transparent transparent transparent;
+    }
+  }
+}

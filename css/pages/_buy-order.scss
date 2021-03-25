@@ -1,0 +1,32 @@
+//Buy Order Page
+.buy-order-entry-container {
+  .primary-btn {
+    width: 100%;
+    margin-top: 1em;
+    display: block;
+  }
+
+  .disable-btn {
+    width: 100%;
+    margin-top: 1em;
+    display: block;
+  }
+}
+
+.share-status-container {
+  .sms-card-info-primary {
+    h3 {
+      font-weight: 500 !important;
+    }
+
+    .sms-card-info-graph {
+      width: 120px;
+    }
+  }
+
+  .sms-card-info-secondary {
+    h3 {
+      font-weight: 500 !important;
+    }
+  }
+}

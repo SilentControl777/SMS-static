@@ -1,0 +1,94 @@
+// Topbar
+.topbar {
+  height: $topbar-base-height;
+  background: var(--default-background);
+  border-bottom: solid thin var(--default-border);
+  .sms-heading {
+    line-height: 70px !important;
+    margin-bottom: 0px !important;
+  }
+  #sidebarToggleTop {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--body-copy-text) !important;
+    &:hover {
+      background-color: var(--primary-background);
+      color: var(--button-light-text);
+    }
+    &:active {
+      background-color: var(--primary-background);
+      color: var(--button-light-text);
+    }
+  }
+  .topbar-divider {
+    width: 0;
+    border-right: solid 1px;
+    border-color: var(--default-border);
+    height: 100%;
+    margin: auto 1rem;
+  }
+  .dropdown-divider {
+    border-right: solid 1px;
+    border-color: var(--default-border);
+  }
+  .nav-item {
+    .nav-link {
+      height: $topbar-base-height;
+      color: var(--menu-default-text);
+      display: flex;
+      align-items: center;
+      padding: 0 0.75rem;
+      &:hover {
+        color: var(--primary-100);
+      }
+      &:focus {
+        outline: none;
+      }
+      &.active {
+        color: var(--primary-100);
+        font-weight: 500;
+      }
+    }
+
+    .dropdown-toggle::after {
+      display: inline-block;
+      margin-left: 0.255em;
+      vertical-align: 0.05em;
+      content: "";
+      border-top: 0.35em solid;
+      border-right: 0.35em solid transparent;
+      border-bottom: 0;
+      border-left: 0.35em solid transparent;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .dropdown {
+    position: static;
+    .dropdown-menu {
+      background: var(--surface-background);
+      border: solid thin var(--default-border);
+      width: calc(100% - #{$grid-gutter-width});
+      right: $grid-gutter-width / 2;
+      border-radius: 0px;
+
+      .dropdown-item {
+        color: var(--menu-default-text);
+        text-align: left;
+        margin: 0px !important;
+        border-radius: 0px !important;
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        transition: all ease 0.3s;
+
+        &:hover {
+          background-color: var(--primary-background);
+          color: var(--button-light-text);
+          transition: all ease 0.3s;
+        }
+      }
+    }
+  }
+}

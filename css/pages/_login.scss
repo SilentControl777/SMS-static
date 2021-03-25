@@ -1,0 +1,25 @@
+//Login Page
+.sms-login-container {
+  border-radius: 0.25em;
+  background: var(--login-form-background);
+  box-shadow: var(--default-shadow) 0px 8px 24px;
+  z-index: 9;
+  backdrop-filter: blur(6px);
+
+  .row {
+    justify-content: center;
+    align-items: center;
+
+    .sms-login-form {
+      .heading-text {
+        text-align: center;
+        margin-bottom: 1em;
+      }
+
+      .primary-btn {
+        margin-top: 1em;
+        width: 100%;
+      }
+    }
+  }
+}

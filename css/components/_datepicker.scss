@@ -1,0 +1,191 @@
+// Date Time Pickers
+.date-time-picker-container {
+  position: relative;
+
+  //Time Picker
+  .primaryTime {
+    font-size: 0.95em !important;
+    background: transparent !important;
+    box-shadow: var(--no-box-shadow);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--no-border);
+    color: var(--input-default-text);
+    transition: all ease 0.3s;
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+    height: 40px;
+    box-shadow: var(--default-shadow) 0px 8px 24px;
+
+    &:hover {
+      border-style: solid !important;
+      border-width: 1px !important;
+      border-color: var(--primary-100) !important;
+      box-shadow: var(--no-box-shadow) !important;
+      transition: all ease 0.3s;
+    }
+
+    &:focus {
+      border-style: solid !important;
+      border-width: 1px !important;
+      border-color: var(--primary-100) !important;
+      box-shadow: var(--no-box-shadow) !important;
+      transition: all ease 0.3s;
+    }
+  }
+
+  .primary-date-icon {
+    position: absolute;
+    width: auto;
+    bottom: 4px;
+    right: 10px;
+    line-height: 30px;
+    margin-top: 0;
+    color: var(--placeholder-text);
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  //Date Picker
+  .primary-date {
+    font-size: 0.95em !important;
+    background: transparent !important;
+    box-shadow: var(--no-box-shadow);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--no-border);
+    color: var(--input-default-text);
+    transition: all ease 0.3s;
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+    height: 40px;
+    box-shadow: var(--default-shadow) 0px 8px 24px;
+
+    &:hover {
+      border-style: solid !important;
+      border-width: 1px !important;
+      border-color: var(--primary-100) !important;
+      box-shadow: var(--no-box-shadow) !important;
+      transition: all ease 0.3s;
+    }
+
+    &:focus {
+      border-style: solid !important;
+      border-width: 1px !important;
+      border-color: var(--primary-100) !important;
+      box-shadow: var(--no-box-shadow) !important;
+      transition: all ease 0.3s;
+    }
+  }
+
+  .primaryDateIcon {
+    position: absolute;
+    width: auto;
+    bottom: 4px;
+    right: 10px;
+    line-height: 29px;
+    margin-top: 0;
+  }
+}
+
+// Calendar
+
+.bootstrap-datetimepicker-widget {
+  padding: 10px;
+  background: var(--surface-background);
+  width: 15rem !important;
+
+  table {
+    thead {
+      th {
+        border: var(--deafult-border);
+        color: var(--dark-text);
+
+        .next {
+          color: var(--primary-100);
+        }
+      }
+    }
+
+    tr {
+      td {
+        font-weight: 400;
+        color: var(--input-default-text) !important;
+        background-color: transparent;
+        font-size: 0.85rem;
+        border-color: var(--no-border) !important;
+
+        .btn-primary {
+          background: var(--primary-100) !important;
+          color: var(--input-default-text);
+        }
+
+        .timepicker-hour,
+        .timepicker-minute {
+          font-weight: 400;
+          color: var(--diable-text);
+          background-color: transparent;
+          font-size: 0.85rem;
+        }
+
+        &.active {
+          background: var(--primary-100) !important;
+
+          &:hover {
+            background: var(--primary-100) !important;
+          }
+        }
+
+        &.disabled {
+          color: var(--body-copy-text) !important;
+
+          &:hover {
+            color: var(--body-copy-text) !important;
+          }
+        }
+
+        &.month {
+          &.active {
+            background: var(--primary-100) !important;
+          }
+        }
+
+        &.year {
+          &.disable {
+            color: var(--diable-text) !important;
+          }
+
+          &.active {
+            background: var(--primary-100) !important;
+          }
+
+          &.old {
+            color: var(--diable-text);
+          }
+        }
+
+        span {
+          &:hover {
+            color: var(--dark-text) !important;
+          }
+
+          &.active {
+            background: var(--primary-100) !important;
+          }
+        }
+      }
+
+      .picker-switch {
+        color: var(--primary-100);
+      }
+    }
+  }
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.top:after {
+  border-top: 6px solid var(--surface-background) !important;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.bottom:after {
+  border-bottom: 6px solid var(--surface-background) !important;
+}

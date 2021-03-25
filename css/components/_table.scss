@@ -1,0 +1,126 @@
+//Table
+.table-responsive {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0em;
+
+    thead {
+      .sorting_asc,
+      .sorting_desc {
+        filter: saturate(7.5);
+      }
+
+      tr {
+        td {
+          background: var(--surface-background);
+        }
+      }
+    }
+
+    th {
+      background: var(--default-background);
+      border-top: var(--default-border);
+      border-bottom: var(--default-border);
+      color: var(--table-header-text);
+      text-align: left;
+      font-weight: bold;
+      padding: 10px;
+      text-align: left;
+      font-size: 0.9em;
+    }
+
+    td {
+      border-top: var(--default-border);
+      border-bottom: var(--default-border);
+      color: var(--table-body-text);
+      padding: 5px 10px;
+      text-align: left;
+      font-size: 0.9em;
+
+      i {
+        font-size: 1.5em;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    tr {
+      background: var(--card-background) !important;
+      transition: background ease 0.2s;
+      border-bottom: solid thin var(--default-border);
+
+      &:hover {
+        background: var(--primary-25) !important;
+
+        td {
+          color: var(--dark-text);
+        }
+      }
+
+      // Table Striped P.S Please remove comment to active the table striped
+      // &:nth-of-type(odd){
+      //        background: var(--surface-background)!important;
+
+      //        &:hover {
+      // 		background: var(--primary-25)!important;
+      // 		cursor: pointer;
+      // 		transition: background ease 0.2s;
+
+      // 		td {
+      // 			color: var(--title-text);
+      // 		}
+      // 	}
+
+      //    }
+      //    &:nth-of-type(even){
+      //        background: var(--card-background)!important;
+
+      //        &:hover {
+      // 		background: var(--primary-25)!important;
+      // 		cursor: pointer;
+      // 		transition: background ease 0.2s;
+
+      // 		td {
+      // 			color: var(--title-text);
+      // 		}
+      // 	}
+
+      //    }
+    }
+  }
+
+  .table-caption-left {
+    margin-top: 1em;
+    display: inline;
+    float: left;
+
+    .table-caption-left-label-text {
+      display: inline-block;
+      color: var(--card-label-text);
+    }
+
+    .table-caption-left-body-text {
+      display: inline-block;
+      color: var(--card-body-default-text);
+    }
+  }
+
+  .table-caption-right {
+    margin-top: 1em;
+    display: inline;
+    float: right;
+
+    .table-caption-right-label-text {
+      display: inline-block;
+      color: var(--card-label-text);
+    }
+
+    .table-caption-right-body-text {
+      display: inline-block;
+      color: var(--card-body-default-text);
+    }
+  }
+}

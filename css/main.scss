@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// 1. Configuration and helpers
+@import "abstracts/variables", "abstracts/mixins";
+
+// 2. Cendors
+@import "vendors/bootstrap4/bootstrap.scss", "vendors/custom-form",
+  "vendors/sms-icon", "vendors/normalize";
+
+// 3. Base
+@import "base/base", "base/keyframes", "base/typography";
+
+// 4. Layout
+@import "layout/global", "layout/sidebar", "layout/topbar", "layout/footer",
+  "layout/responsive";
+
+// 5. Components
+@import "components/card", "components/input", "components/select",
+  "components/buttons", "components/number", "components/radio",
+  "components/check", "components/datepicker", "components/pagination", "components/table";
+
+// 6. Pages
+@import "pages/login", "pages/tips", "pages/changepassword", "pages/buy-order",
+  "pages/dividend", "pages/contact";
+
+// 7. Theme
+@import "theme/default";

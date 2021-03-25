@@ -1,0 +1,223 @@
+// Color Scheme
+:root {
+  //Primary Color
+  --primary-100: #28a8b2;
+  --primary-75: #5ebec6;
+  --primary-50: #93d3d8;
+  --primary-25: #c9e9ec;
+
+  //Secondary Color
+  --secondary-100: #d8a737;
+  --secondary-75: #e2bd69;
+  --secondary-50: #ebd39b;
+  --secondary-25: #f5e9cd;
+
+  //Background
+  --default-background: #ffffff;
+  --light-background: #fcfcfc;
+  --dark-background: #121212;
+  --no-background: transparent;
+  --surface-background: #fcfcfc;
+  --card-background: #fcfcfc;
+  --primary-background: #28a8b2;
+  --secondary-background: #d8a737;
+  --disable-background: #aaaaaa;
+  --login-form-background: rgba(252, 252, 252, 0.9);
+
+  //Text
+  --heading-text: #484848;
+  --body-copy-text: #666666;
+  --card-header-default-text: #484848;
+  --card-header-light-text: #fcfcfc;
+  --card-header-dark-text: #484848;
+  --card-header-primary-text: #28a8b2;
+  --card-header-secondary-text: #d8a737;
+  --card-label-text: #484848;
+  --card-body-default-text: #717171;
+  --card-body-light-text: #fcfcfc;
+  --card-body-dark-text: #666666;
+  --card-body-primary-text: #28a8b2;
+  --card-body-secondary-text: #d8a737;
+  --label-text: #121212;
+  --placeholder-text: #999999;
+  --button-light-text: #fcfcfc;
+  --button-dark-text: #484848;
+  --button-primary-text: #28a8b2;
+  --button-secondary-text: #d8a737;
+  --table-header-text: #121212;
+  --table-body-text: #484848;
+  --light-text: #fcfcfc;
+  --dark-text: #484848;
+  --footer-text: #666666;
+  --menu-default-text: #999999;
+  --menu-hover-text: #28a8b2;
+  --link-default-text: #121212;
+  --link-hover-text: #484848;
+  --link-primary-text: #28a8b2;
+  --link-primary-hover-text: #93d3d8;
+  --link-secondary-text: #d8a737;
+  --link-secondary-hover-text: #ebd39b;
+  --icon-default-text: #999999;
+  --icon-hover-text: #28a8b2;
+  --danger-text: #ea4242;
+  --danger-hover-text: #f4a0a0;
+  --success-text: #00c48c;
+  --success-hover-text: #7fe1c5;
+  --warning-text: #ffa26b;
+  --warning-hover-text: #ffd0b5;
+  --input-default-text: #121212;
+  --input-focus-text: #222222;
+  --diable-text: #444444;
+
+  //Shadow
+  --default-shadow: #e6e6e6;
+  --no-shadow: transparent;
+
+  //Border
+  --default-border: #ececec;
+  --no-border: transparent;
+  --disable-border: #aaaaaa;
+  --primary-border: #28a8b2;
+  --secondary-border: #d8a737;
+
+  //Seperator
+  --default-seperator: #ececec;
+
+  //Danger
+  --danger-100: #ea4242;
+  --danger-50: #f4a0a0;
+
+  //Success
+  --success-100: #00c48c;
+  --success-50: #7fe1c5;
+
+  //Warning
+  --warning-100: #ffa26b;
+  --warning-50: #ffd0b5;
+
+  //Customize Illustration Circle Background
+  --circle-light: #f0f0f0;
+  --circle-dark: #191919;
+}
+html[data-theme="dark"] {
+  //Primary Color
+  --primary-100: #28a8b2;
+  --primary-75: #5ebec6;
+  --primary-50: #93d3d8;
+  --primary-25: #c9e9ec;
+
+  //Secondary Color
+  --secondary-100: #d8a737;
+  --secondary-75: #e2bd69;
+  --secondary-50: #ebd39b;
+  --secondary-25: #f5e9cd;
+
+  //Background
+  --default-background: #121212;
+  --light-background: #fcfcfc;
+  --dark-background: #121212;
+  --no-background: transparent;
+  --surface-background: #242424;
+  --card-background: #191919;
+  --primary-background: #28a8b2;
+  --secondary-background: #d8a737;
+  --disable-background: #aaaaaa;
+  --login-form-background: rgba(25, 25, 25, 0.9);
+
+  //Text
+  --heading-text: #cfcfcf;
+  --body-copy-text: #b8b8b8;
+  --card-header-default-text: #cfcfcf;
+  --card-header-light-text: #fcfcfc;
+  --card-header-dark-text: #cfcfcf;
+  --card-header-primary-text: #28a8b2;
+  --card-header-secondary-text: #d8a737;
+  --card-label-text: #717171;
+  --card-body-default-text: #c1c1c1;
+  --card-body-light-text: #fcfcfc;
+  --card-body-dark-text: #b8b8b8;
+  --card-body-primary-text: #28a8b2;
+  --card-body-secondary-text: #d8a737;
+  --label-text: #cfcfcf;
+  --placeholder-text: #444444;
+  --button-light-text: #fcfcfc;
+  --button-dark-text: #cfcfcf;
+  --button-primary-text: #28a8b2;
+  --button-secondary-text: #d8a737;
+  --table-header-text: #9e9e9e;
+  --table-body-text: #b8b8b8;
+  --light-text: #fcfcfc;
+  --dark-text: #484848;
+  --footer-text: #b8b8b8;
+  --menu-default-text: #999999;
+  --menu-hover-text: #28a8b2;
+  --link-default-text: #121212;
+  --link-hover-text: #121212;
+  --link-primary-text: #28a8b2;
+  --link-primary-hover-text: #93d3d8;
+  --link-secondary-text: #d8a737;
+  --link-secondary-hover-text: #ebd39b;
+  --icon-default-text: #999999;
+  --icon-hover-text: #28a8b2;
+  --danger-text: #ea4242;
+  --danger-hover-text: #f4a0a0;
+  --success-text: #00c48c;
+  --success-hover-text: #7fe1c5;
+  --warning-text: #ffa26b;
+  --warning-hover-text: #ffd0b5;
+  --input-default-text: #fafafa;
+  --input-focus-text: #dddddd;
+  --diable-text: #444444;
+
+  //Shadow (Dark mode have no shadow just elevation)
+  --default-shadow: transparent;
+  --no-shadow: transparent;
+
+  //Border
+  --default-border: #444444;
+  --no-border: #444444;
+  --disable-border: #aaaaaa;
+  --primary-border: #28a8b2;
+  --secondary-border: #d8a737;
+
+  //Seperator
+  --default-seperator: #444444;
+
+  //Danger
+  --danger-100: #ea4242;
+  --danger-50: #f4a0a0;
+
+  //Success
+  --success-100: #00c48c;
+  --success-50: #7fe1c5;
+
+  //Warning
+  --warning-100: #ffa26b;
+  --warning-50: #ffd0b5;
+
+  //Customize Illustration Circle Background
+  --circle-light: #f0f0f0;
+  --circle-dark: #191919;
+}
+
+// Sidebar Variables
+
+// Change below variable to change the width of the sidenav when collapsed
+$sidebar-collapsed-width: 14rem;
+
+// Adjust column spacing for symmetry
+$spacer: 1rem;
+$grid-gutter-width: $spacer * 1.5;
+
+// Borders Radius
+$border-radius: 0.35rem !default;
+
+// Shadows
+$box-shadow-sm: 0 0.125rem 0.25rem 0 var(--default-shadow) !default;
+$box-shadow: 0 0.15rem 1.75rem 0 var(--default-shadow) !default;
+
+// Change below variable if the height of the navbar changes
+$topbar-base-height: 4.375rem;
+
+// Change below variable to change the width of the sidenav
+$sidebar-base-width: 15rem;

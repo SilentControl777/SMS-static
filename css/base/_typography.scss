@@ -1,0 +1,313 @@
+// Typography Color
+html {
+  font-size: 15px; //base font size 15px, 1em
+  @include font-face('Poppins','../../font/Poppins/Poppins-MediumItalic.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-Italic.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-SemiBold.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-Thin.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-Black.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-Bold.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-LightItalic.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-Regular.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-BlackItalic.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-ExtraBold.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-ExtraBoldItalic.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-SemiBoldItalic.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-Medium.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-Light.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-BoldItalic.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-ExtraLightItalic.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-ThinItalic.ttf');
+  @include font-face('Poppins','../../font/Poppins/Poppins-ExtraLight.ttf');
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+// Typography Sizes and Positions
+
+//Heading
+.heading-text {
+  color: var(--heading-text);
+}
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 77.664px;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 800;
+  line-height: 58.248px;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 38.832px;
+}
+
+h4 {
+  font-size: 1.3125em;
+  font-weight: 600;
+  line-height: 33.978px;
+}
+
+h5 {
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 29.124px;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 25.888px;
+}
+
+//Label
+.label-text {
+  color: var(--label-text);
+  font-size: 0.8125em;
+  font-weight: 800;
+  line-height: 21.034px;
+  margin-bottom: 0.2em !important;
+}
+
+//Placeholder
+::-webkit-input-placeholder {
+  color: var(--placeholder-text) !important;
+  font-size: 0.95em;
+  font-family: inherit;
+}
+
+:-ms-input-placeholder {
+  color: var(--placeholder-text) !important;
+  font-size: 0.95em;
+  font-family: inherit;
+}
+
+::placeholder {
+  color: var(--placeholder-text) !important;
+  font-size: 0.95em;
+  font-family: inherit;
+}
+
+//Menu
+.menu-text {
+  color: var(--menu-default-text);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 25.888px;
+
+  &:hover {
+    color: var(--menu-hover-text);
+  }
+}
+
+//Icon
+.icon-text {
+  color: var(--menu-default-text);
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 25.888px;
+
+  &:hover {
+    color: var(--menu-hover-text);
+  }
+}
+
+//Body Copy
+.body-copy {
+  color: var(--body-copy-text);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 25.888px;
+}
+
+//Card
+.card-header-default-text {
+  color: var(--card-header-default-text);
+  font-size: 1.125em;
+  font-weight: 800;
+  line-height: 29.124px;
+  margin-bottom: 1em;
+  word-break: break-all;
+}
+
+.card-header-light-text {
+  color: var(--card-header-light-text);
+  font-size: 1.125em;
+  font-weight: 800;
+  line-height: 29.124px;
+  margin-bottom: 1em;
+  word-break: break-all;
+}
+
+.card-header-dark-text {
+  color: var(--card-header-dark-text);
+  font-size: 1.125em;
+  font-weight: 800;
+  line-height: 29.124px;
+  margin-bottom: 1em;
+  word-break: break-all;
+}
+
+.card-header-primary-text {
+  color: var(--card-header-primary-text);
+  font-size: 1.125em;
+  font-weight: 800;
+  line-height: 29.124px;
+  margin-bottom: 1em;
+  word-break: break-all;
+}
+
+.card-header-secondary-text {
+  color: var(--card-header-secondary-text);
+  font-size: 1.125em;
+  font-weight: 800;
+  line-height: 29.124px;
+  margin-bottom: 1em;
+  word-break: break-all;
+}
+
+.card-label-text {
+  color: var(--card-label-text);
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 25.888px;
+  display: inline;
+  float: left;
+  margin-right: 1em;
+  min-width: 90px;
+  word-break: break-all;
+}
+
+.card-body-default-text {
+  color: var(--card-body-default-text);
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 25.888px;
+  word-break: break-all;
+}
+
+.card-body-light-text {
+  color: var(--card-body-light-text);
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 25.888px;
+  word-break: break-all;
+}
+
+.card-body-dark-text {
+  color: var(--card-body-dark-text);
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 25.888px;
+  word-break: break-all;
+}
+
+.card-body-primary-text {
+  color: var(--card-body-primary-text);
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 25.888px;
+  word-break: break-all;
+}
+
+.card-body-secondary-text {
+  color: var(--card-body-secondary-text);
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 25.888px;
+  word-break: break-all;
+}
+
+//Table
+.table-header-text {
+  color: var(--table-header-text);
+  font-size: 0.8125em;
+  font-weight: 700;
+  line-height: 21.034px;
+}
+
+.table-body-text {
+  color: var(--table-body-text);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 25.888px;
+}
+
+//Common
+.light-text {
+  color: var(--light-text);
+}
+
+.dark-text {
+  color: var(--dark-text);
+}
+
+//Footer Copyright
+.footer-text {
+  color: var(--footer-text);
+  font-size: 0.8125em;
+  font-weight: 700;
+  line-height: 21.034px;
+}
+
+//Link
+.link-default-text {
+  color: var(--link-default-text);
+
+  &:hover {
+    color: var(--link-hover-text);
+  }
+}
+
+.link-primary-text {
+  color: var(--link-primary-text);
+
+  &:hover {
+    color: var(--link-primary-hover-text);
+  }
+}
+
+.link-secondary-text {
+  color: var(--link-secondary-text);
+
+  &:hover {
+    color: var(--link-secondary-hover-text);
+  }
+}
+
+//Primary
+.primary-text {
+  color: var(--primary-100);
+}
+
+//Primary
+.secondary-text {
+  color: var(--secondary-100);
+}
+
+//Danger
+.danger-text {
+  color: var(--danger-text);
+}
+
+//Success
+.success-text {
+  color: var(--success-text);
+}
+
+//Warning
+.warning-text {
+  color: var(--warning-text);
+}
+
+//Form Input
+.form-input {
+  color: var(--input-default-text);
+}

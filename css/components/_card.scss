@@ -1,0 +1,133 @@
+//Card
+.sms-card {
+  padding: 1.5em;
+  margin: 1em;
+  background: var(--card-background);
+  box-shadow: var(--default-shadow) 0px 8px 24px;
+  border-radius: 0.25em;
+  width: auto;
+  height: auto;
+  position: relative;
+  transition: all ease 0.3s;
+
+  .sms-card-fact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+  }
+
+  .sms-card-info {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.sms-no-card {
+  padding: 1.5em;
+  background: var(--no-background);
+  box-shadow: var(--no-shadow) 0px 8px 24px;
+  border-radius: 0.25em;
+  width: auto;
+  height: auto;
+  position: relative;
+  transition: all ease 0.3s;
+}
+
+.sms-card-pills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: all ease 0.3s;
+
+  .sms-card-pill {
+    display: flex;
+    padding: 1em;
+    margin: 1em 0em;
+    border-radius: 0.25em;
+    width: auto;
+    height: auto;
+    position: relative;
+    border-style: solid;
+    border-width: 0.25em;
+    color: var(--light-text);
+
+    &:first-child {
+      border-color: var(--secondary-border);
+      background: var(--secondary-100);
+      background: linear-gradient(
+        90deg,
+        var(--secondary-100) 0%,
+        var(--secondary-50) 100%
+      );
+    }
+
+    &:last-child {
+      border-color: var(--primary-border);
+      background: var(--primary-100);
+      background: linear-gradient(
+        90deg,
+        var(--primary-100) 0%,
+        var(--primary-50) 100%
+      );
+    }
+
+    .card-label-text {
+      min-width: 100px;
+      font-weight: 600;
+      color: var(--light-text);
+    }
+
+    .card-body-default-text {
+      font-weight: 600;
+      color: var(--light-text);
+      word-break: inherit;
+    }
+  }
+}
+
+.sms-card-info-primary {
+  padding: 1.5em;
+  margin: 1em;
+  border-style: solid;
+  border-width: 0.25em;
+  border-color: var(--primary-border);
+  border-radius: 0.25em;
+  width: auto;
+  height: auto;
+  position: relative;
+  transition: all ease 0.3s;
+  background: var(--primary-100);
+  background: linear-gradient(
+    90deg,
+    var(--primary-100) 0%,
+    var(--primary-50) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--light-text);
+}
+
+.sms-card-info-secondary {
+  padding: 1.5em;
+  margin: 1em;
+  border-style: solid;
+  border-width: 0.25em;
+  border-color: var(--secondary-border);
+  border-radius: 0.25em;
+  width: auto;
+  height: auto;
+  position: relative;
+  transition: all ease 0.3s;
+  background: var(--secondary-100);
+  background: linear-gradient(
+    90deg,
+    var(--secondary-100) 0%,
+    var(--secondary-50) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--light-text);
+}

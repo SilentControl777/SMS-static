@@ -1,0 +1,336 @@
+//Fade in illustration parts
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes leaf1 {
+  from {
+    transform: rotate(0deg);
+    transform-origin: top center;
+  }
+
+  to {
+    transform: rotate(1deg);
+    transform-origin: top center;
+  }
+}
+
+@keyframes leaf2 {
+  from {
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+
+  to {
+    transform: rotate(1deg);
+    transform-origin: center;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#leaf-1 {
+  -webkit-animation: leaf1 3s ease infinite alternate 0;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: leaf1 3s ease infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: leaf1 3s ease infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: leaf1 3s ease infinite;
+  animation-direction: alternate-reverse;
+}
+
+#leaf-2 {
+  -webkit-animation: leaf2 4s ease infinite alternate 0;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: leaf2 4s ease infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: leaf2 4s ease infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: leaf2 4s ease infinite;
+  animation-direction: alternate-reverse;
+}
+
+#textboard-1,
+#textboard-2,
+#textboard-3 {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  -webkit-animation: dash 5s linear infinite alternate 0;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: dash 5s linear infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: dash 5s linear infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: dash 5s linear infinite;
+  animation: dash 5s linear infinite;
+}
+
+#circle-1 {
+  -webkit-animation: fadeIn 3s infinite;
+  -moz-animation: fadeIn 3s infinite;
+  -o-animation: fadeIn 3s infinite;
+  animation: fadeIn 3s infinite;
+}
+
+#circle-2 {
+  -webkit-animation: fadeIn 5s infinite;
+  -moz-animation: fadeIn 5s infinite;
+  -o-animation: fadeIn 5s infinite;
+  animation: fadeIn 5s infinite;
+}
+
+#text-1,
+#text-2 {
+  -webkit-animation: fadeIn 8s infinite;
+  -moz-animation: fadeIn 8s infinite;
+  -o-animation: fadeIn 8s infinite;
+  animation: fadeIn 8s infinite;
+}
+
+#text-3,
+#text-4 {
+  -webkit-animation: fadeIn 10s infinite;
+  -moz-animation: fadeIn 10s infinite;
+  -o-animation: fadeIn 10s infinite;
+  animation: fadeIn 10s infinite;
+}
+
+#graph-1,
+#graph-2,
+#graph-3,
+#graph-4 {
+  stroke-dasharray: 150;
+  stroke-dashoffset: 150;
+  -webkit-animation: dash 10s linear infinite alternate 0;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: dash 10s linear infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: dash 10s linear infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: dash 10s linear infinite;
+  animation-direction: alternate-reverse;
+}
+
+#contact-text-1 {
+  -webkit-animation: fadeIn 4s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 4s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 4s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 4s infinite;
+  animation-direction: alternate-reverse;
+}
+
+#contact-text-2 {
+  -webkit-animation: fadeIn 4s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 4s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 4s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 0.5s;
+}
+
+#contact-text-3 {
+  -webkit-animation: fadeIn 4s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 4s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 4s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 1s;
+}
+
+#contact-text-4 {
+  -webkit-animation: fadeIn 4s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 4s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 4s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 1.5s;
+}
+
+#message-1 {
+  -webkit-animation: fadeIn 4s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 4s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 4s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 4s infinite;
+  animation-direction: alternate-reverse;
+}
+
+#message-2 {
+  -webkit-animation: fadeIn 4s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 4s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 4s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 0.5s;
+}
+
+#message-3 {
+  -webkit-animation: fadeIn 4s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 4s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 4s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 1s;
+}
+
+#message-4 {
+  -webkit-animation: fadeIn 4s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 4s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 4s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 1.5s;
+}
+
+#Bird {
+  -webkit-animation: fadeIn 2s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 2s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 2s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 2s infinite;
+  animation-direction: alternate-reverse;
+}
+
+#leaf-11,
+#leaf-111 {
+  -webkit-animation: leaf1 3s ease infinite alternate 0;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: leaf1 3s ease infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: leaf1 3s ease infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: leaf1 3s ease infinite;
+  animation-direction: alternate-reverse;
+}
+
+#leaf-12,
+#leaf-122 {
+  -webkit-animation: leaf1 5s ease infinite alternate 0;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: leaf1 5s ease infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: leaf1 5s ease infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: leaf1 5s ease infinite;
+  animation-direction: alternate-reverse;
+}
+
+#leaf-13,
+#leaf-133 {
+  -webkit-animation: leaf1 7s ease infinite alternate 0;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: leaf1 7s ease infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: leaf1 7s ease infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: leaf1 7s ease infinite;
+  animation-direction: alternate-reverse;
+}
+
+#loading-1 {
+  -webkit-animation: fadeIn 4s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 4s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 4s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 4s infinite;
+  animation-direction: alternate-reverse;
+}
+
+#loading-2 {
+  -webkit-animation: fadeIn 4s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 4s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 4s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 0.5s;
+}
+
+#loading-3 {
+  -webkit-animation: fadeIn 4s infinite;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation: fadeIn 4s infinite;
+  -moz-animation-direction: alternate-reverse;
+  -o-animation: fadeIn 4s infinite;
+  -o-animation-direction: alternate-reverse;
+  animation: fadeIn 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 1s;
+}
+
+

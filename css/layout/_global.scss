@@ -1,0 +1,118 @@
+// Global component styles
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  max-width: 100vw;
+  overflow-x: hidden !important;
+}
+
+a {
+  &:focus {
+    outline: none;
+  }
+}
+
+// Main page wrapper
+#wrapper {
+  display: flex;
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden !important;
+
+  #content-wrapper {
+    width: 100%;
+    overflow: hidden;
+
+    #content {
+      flex: 1 0 auto;
+      background: var(--surface-background);
+    }
+
+    // &:after {
+    // 	content: "";
+    // 	width: 100%;
+    // 	height: 100%;
+    // 	margin-top: $topbar-base-height;
+    // 	display: block;
+    // 	position: fixed;
+    // 	background: rgba(0,0,0,0.5);
+    // }
+  }
+}
+
+.sidebar-toggled {
+  #wrapper {
+    max-width: 100vw;
+    overflow-x: hidden !important;
+
+    #content-wrapper {
+      &:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}
+
+//Filter Dropdown
+.filter-form-container {
+  padding: 2em;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  margin-right: 0.75rem;
+  background: var(--default-background);
+  width: fit-content;
+  min-width: 10rem;
+  z-index: 99999;
+  border-radius: 0.25em;
+  box-shadow: var(--default-shadow);
+  height: 65vh;
+  display: none;
+  overflow: scroll;
+}
+
+.filter-form-container.show {
+  display: block !important;
+}
+
+//No-data table
+.no-data-img {
+  max-height: 150px;
+  display: block;
+  margin: auto;
+}
+.no-data-text {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+//Theme Switcher
+.theme-switch {
+  display: inline-block;
+  position: relative;
+  line-height: 4.375rem;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.theme-switch input, .theme-switch .jcf-checkbox {
+  display:none;
+}
+#theme-switch-icon {
+  font-size: 1.3rem;
+  color: var(--menu-default-text);
+
+  &:hover {
+    color: var(--primary-100);
+  }
+}

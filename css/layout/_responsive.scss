@@ -1,0 +1,1059 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  //Common
+  // Login Page Illustration
+  #login-illustration {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  // Filter Container
+  .filter-container {
+    .filter-container-filter-btn {
+      margin-top: 1em;
+      width: 100% !important;
+    }
+    .filter-form-container {
+      top: 60px !important;
+    }
+  }
+
+  // Pagination Container
+  .pagination-container { 
+    flex-direction: column;
+    align-items: center;
+    .pagination-count-container {
+      margin-bottom: 1em;
+    }
+  }
+
+  //Topbar
+  .topbar {
+    .nav-item {
+      .nav-link {
+        height: 0em !important;
+        line-height: 60px;
+        margin-left: 1em;
+        display: inline;
+        padding: 0px;
+      }
+    }
+    .sms-heading {
+      display: none;
+    }
+  }
+
+  //Components
+
+  //Cards
+  .sms-no-card {
+    .sms-card-pills {
+      flex-direction: column;
+
+      .sms-card-pill {
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .sms-card {
+    .sms-card-info {
+      flex-direction: column !important;
+      margin-bottom: 1em;
+    }
+    .sms-card-fact {
+      flex-direction: column;
+    }
+  }
+
+  //Pages
+
+  //Login
+  .sms-login-container {
+    padding: 2em;
+
+    .row {
+      .sms-logo {
+        img {
+          max-width: 100px;
+        }
+      }
+    }
+  }
+
+  //Tips
+  .intro-container {
+    text-align: center;
+
+    .intro-illustration {
+      display: block;
+      margin: auto;
+      position: relative;
+      max-width: 200px;
+    }
+  }
+
+  .info-container {
+    .card-body-default-text {
+      min-height: auto !important;
+      word-break: break-word;
+    }
+  }
+
+  // Contact
+  #contact-illustration {
+    position: relative;
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 3em auto;
+  }
+
+  //Buy Order
+  .share-status-container {
+    .sms-card-info-primary {
+      flex-direction: column-reverse;
+
+      .sms-card-info-text {
+        margin: 1em 0em;
+      }
+    }
+    .sms-card-info-secondary {
+      padding-bottom: 1em !important;
+      flex-direction: column;
+
+      #order-illustrations {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: auto;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  //Common
+  // Login Page Illustration
+  #login-illustration {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  // Filter Container
+  .filter-container {
+    .filter-container-filter-btn {
+      margin-top: 1em;
+      width: 100% !important;
+    }
+    .filter-form-container {
+      top: 60px !important;
+    }
+  }
+
+  // Pagination Container
+  .pagination-container { 
+    flex-direction: column;
+    align-items: center;
+    .pagination-count-container {
+      margin-bottom: 1em;
+    }
+  }
+
+  //Topbar
+  .topbar {
+    .nav-item {
+      .nav-link {
+        height: 0em !important;
+        line-height: 60px;
+        margin-left: 1em;
+        display: inline;
+        padding: 0px;
+      }
+    }
+    .sms-heading {
+      line-height: 1em !important;
+      margin-bottom: 0px !important;
+      font-size: 1em !important;
+    }
+  }
+
+  //Components
+
+  //Cards
+  .sms-no-card {
+    .sms-card-pills {
+      flex-direction: column;
+
+      .sms-card-pill {
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .sms-card {
+    .sms-card-info {
+      flex-direction: column !important;
+      margin-bottom: 1em;
+    }
+    .sms-card-fact {
+      flex-direction: column;
+    }
+  }
+
+  //Pages
+
+  //Login
+  .sms-login-container {
+    padding: 2em;
+
+    .row {
+      .sms-logo {
+        img {
+          max-width: 100px;
+        }
+      }
+    }
+  }
+
+  //Tips
+  .intro-container {
+    text-align: center;
+
+    .intro-illustration {
+      display: block;
+      margin: auto;
+      position: relative;
+      max-width: 200px;
+    }
+  }
+
+  .info-container {
+    .card-body-default-text {
+      min-height: auto !important;
+      word-break: break-word;
+    }
+  }
+
+  // Contact
+  #contact-illustration {
+    position: relative;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 3em auto;
+  }
+
+  // Buy Order
+  .share-status-container {
+    .sms-card-info-secondary {
+      padding-bottom: 1em !important;
+      flex-direction: column;
+
+      #order-illustrations {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: auto;
+      }
+    }
+  }
+
+  //Dividend Page
+
+  .filter-container {
+    form {
+      .primary-btn {
+        margin-top: 1em;
+        width: 100%;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  //Common
+  // Login Page Illustration
+  #login-illustration {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  //Topbar
+  .topbar {
+    .nav-item {
+      .dropdown-toggle {
+        display: flex !important;
+      }
+      .nav-link {
+        display: none;
+      }
+    }
+    .dropdown {
+      position: relative;
+      flex-direction: row;
+      display: flex;
+      .dropdown-menu {
+        width: auto;
+        right: 0;
+      }
+    }
+    .dropdown-list {
+      width: 20rem !important;
+      .dropdown-item {
+        .text-truncate {
+          max-width: 13.375rem;
+        }
+      }
+    }
+  }
+
+  // Sidebar
+  .sidebar {
+    width: $sidebar-base-width !important;
+    .nav-item {
+      // Accordion
+      .collapse {
+        position: relative;
+        left: 0;
+        z-index: 1;
+        top: 0;
+        animation: none;
+        .collapse-inner {
+          border-radius: 0;
+          box-shadow: none;
+        }
+      }
+      .collapsing {
+        display: block;
+        transition: $transition-collapse;
+      }
+      .collapse,
+      .collapsing {
+        margin: 0 1rem;
+      }
+
+      &:hover {
+        .nav-link {
+          color: var(--primary-100) !important;
+        }
+      }
+      &.active {
+        .nav-link {
+          color: var(--primary-100) !important;
+        }
+      }
+
+      .nav-link {
+        display: inline-block;
+        width: 100%;
+        color: var(--menu-default-text);
+        text-align: left;
+        padding: 1rem;
+        width: fit-content;
+        i {
+          font-size: 1.2rem;
+          margin-right: 0.25rem;
+        }
+        span {
+          font-size: 0.85rem;
+          display: inline;
+        }
+      }
+    }
+    .sidebar-brand {
+      .sidebar-brand-icon i {
+        font-size: 2rem;
+      }
+      .sidebar-brand-text {
+        display: inline;
+      }
+    }
+    &.toggled {
+      overflow: visible;
+      width: $sidebar-base-width !important;
+      .nav-item {
+        // Accordion
+        .collapse {
+          position: absolute;
+          left: 100%;
+          z-index: 1;
+          top: 2px;
+          .collapse-inner {
+            box-shadow: var(--default-shadow);
+            border-radius: $border-radius;
+          }
+        }
+        .collapsing {
+          display: none;
+          transition: none;
+        }
+        .collapse,
+        .collapsing {
+          margin: 0;
+        }
+        &:last-child {
+          margin-bottom: 1rem;
+        }
+        .nav-link {
+          text-align: center;
+          color: var(--menu-default-text);
+          padding: 0.75rem 1rem;
+          width: 100%;
+          span {
+            font-size: 0.95rem;
+            display: block;
+          }
+          i {
+            margin-right: 0;
+            display: block;
+          }
+          &[data-toggle="collapse"]::after {
+            display: none;
+          }
+        }
+      }
+      .sidebar-brand {
+        .sidebar-brand-icon i {
+          font-size: 2rem;
+        }
+        .sidebar-brand-text {
+          display: none;
+        }
+      }
+      .sidebar-heading {
+        text-align: center;
+      }
+    }
+    .sidebar-heading {
+      text-align: left;
+    }
+  }
+
+  //Components
+
+  //Cards
+  .sms-no-card {
+    .sms-card-pills {
+      flex-direction: column;
+
+      .sms-card-pill {
+        justify-content: space-between;
+      }
+    }
+  }
+
+  //Pages
+
+  //Login
+  .sms-login-container {
+    padding: 2em;
+
+    .row {
+      .sms-logo {
+        img {
+          max-width: 150px;
+        }
+      }
+    }
+  }
+
+  //Tips
+  .intro-container {
+    text-align: center;
+
+    .intro-illustration {
+      display: block;
+      margin: auto;
+      position: relative;
+      max-width: 200px;
+    }
+    .card-body-default-text {
+      word-break: break-word !important;
+    }
+  }
+
+  .info-container {
+    .card-body-default-text {
+      min-height: auto !important;
+    }
+  }
+
+  // Contact
+  .contact-container {
+    .sms-card {
+      padding-bottom: 1em !important;
+    }
+    #contact-illustration {
+      position: relative;
+      width: 60%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 3em auto;
+    }
+  }
+
+  // Buy Order
+  .share-status-container {
+    .sms-card-info-secondary {
+      padding-bottom: 1em !important;
+      flex-direction: column;
+
+      #order-illustrations {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: auto;
+      }
+    }
+  }
+
+  //Dividend Page
+
+  .dividend-container {
+    .link-secondary-text {
+      line-height: 40px;
+    }
+    .primary-btn {
+      float: right;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  //Common
+  // Login Page Illustration
+  #login-illustration {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  //Topbar
+  .topbar {
+    .nav-item {
+      .nav-link {
+        display: flex;
+      }
+    }
+    .dropdown {
+      position: relative;
+      flex-direction: row;
+      display: flex;
+      .dropdown-menu {
+        width: auto;
+        left: 0;
+      }
+    }
+    .dropdown-list {
+      width: 20rem !important;
+      .dropdown-item {
+        .text-truncate {
+          max-width: 13.375rem;
+        }
+      }
+    }
+  }
+
+  // Sidebar
+  .sidebar {
+    width: $sidebar-base-width !important;
+    .nav-item {
+      // Accordion
+      .collapse {
+        position: relative;
+        left: 0;
+        z-index: 1;
+        top: 0;
+        animation: none;
+        .collapse-inner {
+          border-radius: 0;
+          box-shadow: none;
+        }
+      }
+      .collapsing {
+        display: block;
+        transition: $transition-collapse;
+      }
+      .collapse,
+      .collapsing {
+        margin: 0 1rem;
+      }
+
+      &:hover {
+        .nav-link {
+          color: var(--primary-100) !important;
+        }
+      }
+      &.active {
+        .nav-link {
+          color: var(--primary-100) !important;
+        }
+      }
+
+      .nav-link {
+        display: inline-block;
+        width: 100%;
+        color: var(--menu-default-text);
+        text-align: left;
+        padding: 1rem;
+        width: fit-content;
+        i {
+          font-size: 1.2rem;
+          margin-right: 0.25rem;
+        }
+        span {
+          font-size: 0.85rem;
+          display: inline;
+        }
+      }
+    }
+    .sidebar-brand {
+      .sidebar-brand-icon i {
+        font-size: 2rem;
+      }
+      .sidebar-brand-text {
+        display: inline;
+      }
+    }
+    &.toggled {
+      overflow: visible;
+      width: $sidebar-base-width !important;
+      .nav-item {
+        // Accordion
+        .collapse {
+          position: absolute;
+          left: 100%;
+          z-index: 1;
+          top: 2px;
+          .collapse-inner {
+            box-shadow: var(--default-shadow);
+            border-radius: $border-radius;
+          }
+        }
+        .collapsing {
+          display: none;
+          transition: none;
+        }
+        .collapse,
+        .collapsing {
+          margin: 0;
+        }
+        &:last-child {
+          margin-bottom: 1rem;
+        }
+        .nav-link {
+          text-align: center;
+          color: var(--menu-default-text);
+          padding: 0.75rem 1rem;
+          width: 100%;
+          span {
+            font-size: 0.95rem;
+            display: block;
+          }
+          i {
+            margin-right: 0;
+            display: block;
+          }
+          &[data-toggle="collapse"]::after {
+            display: none;
+          }
+        }
+      }
+      .sidebar-brand {
+        .sidebar-brand-icon i {
+          font-size: 2rem;
+        }
+        .sidebar-brand-text {
+          display: none;
+        }
+      }
+      .sidebar-heading {
+        text-align: center;
+      }
+    }
+    .sidebar-heading {
+      text-align: left;
+    }
+  }
+
+  //Components
+
+  //Cards
+  .sms-no-card {
+    .sms-card-pills {
+      flex-direction: column;
+    }
+  }
+
+  //Pages
+
+  //Dashboard
+  .profile-account-container {
+    padding-right: 0px;
+  }
+
+  .share-dividend-container {
+    padding-left: 0px;
+  }
+
+  //Login
+  .sms-login-container {
+    padding: 3em;
+
+    .row {
+      .sms-logo {
+        img {
+          max-width: 200px;
+        }
+      }
+    }
+  }
+
+  //Tips
+  .intro-container {
+    padding-top: 0px;
+    text-align: center;
+
+    .intro-illustration {
+      display: block;
+      margin: auto;
+      position: relative;
+      max-width: 200px;
+    }
+  }
+
+  .info-container {
+    h4 {
+      min-height: 66px;
+    }
+
+    .card-body-default-text {
+      min-height: 80px !important;
+    }
+  }
+
+  // Contact
+  .contact-container {
+    .sms-card {
+      padding-bottom: 8em !important;
+    }
+    #contact-illustration {
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      z-index: 1;
+      width: 40%;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  // Buy Order
+  .share-status-container {
+    .sms-card-info-secondary {
+      padding-bottom: 5em !important;
+
+      #order-illustrations {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        z-index: 1;
+        width: 50%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  //Dividend Page
+
+  .dividend-container {
+    .link-secondary-text {
+      line-height: 40px;
+    }
+    .primary-btn {
+      float: right;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  //Common
+  // Login Page Illustration
+  #login-illustration {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  //Topbar
+  .topbar {
+    .nav-item {
+      .nav-link {
+        display: flex;
+      }
+    }
+    .dropdown {
+      position: relative;
+      flex-direction: row;
+      display: flex;
+      .dropdown-menu {
+        width: auto;
+        left: 0;
+      }
+    }
+    .dropdown-list {
+      width: 20rem !important;
+      .dropdown-item {
+        .text-truncate {
+          max-width: 13.375rem;
+        }
+      }
+    }
+  }
+
+  // Sidebar
+  .sidebar {
+    width: $sidebar-base-width !important;
+    .nav-item {
+      // Accordion
+      .collapse {
+        position: relative;
+        left: 0;
+        z-index: 1;
+        top: 0;
+        animation: none;
+        .collapse-inner {
+          border-radius: 0;
+          box-shadow: none;
+        }
+      }
+      .collapsing {
+        display: block;
+        transition: $transition-collapse;
+      }
+      .collapse,
+      .collapsing {
+        margin: 0 1rem;
+      }
+
+      &:hover {
+        .nav-link {
+          color: var(--primary-100) !important;
+        }
+      }
+      &.active {
+        .nav-link {
+          color: var(--primary-100) !important;
+        }
+      }
+
+      .nav-link {
+        display: inline-block;
+        width: 100%;
+        color: var(--menu-default-text);
+        text-align: left;
+        padding: 1rem;
+        width: fit-content;
+        i {
+          font-size: 1.2rem;
+          margin-right: 0.25rem;
+        }
+        span {
+          font-size: 0.85rem;
+          display: inline;
+        }
+      }
+    }
+    .sidebar-brand {
+      .sidebar-brand-icon i {
+        font-size: 2rem;
+      }
+      .sidebar-brand-text {
+        display: inline;
+      }
+    }
+    &.toggled {
+      overflow: visible;
+      width: $sidebar-base-width !important;
+      .nav-item {
+        // Accordion
+        .collapse {
+          position: absolute;
+          left: 100%;
+          z-index: 1;
+          top: 2px;
+          .collapse-inner {
+            box-shadow: var(--default-shadow);
+            border-radius: $border-radius;
+          }
+        }
+        .collapsing {
+          display: none;
+          transition: none;
+        }
+        .collapse,
+        .collapsing {
+          margin: 0;
+        }
+        &:last-child {
+          margin-bottom: 1rem;
+        }
+        .nav-link {
+          text-align: left;
+          color: var(--menu-default-text);
+          padding: 0.75rem 1rem;
+          width: 100%;
+          span {
+            font-size: 0.85rem;
+            display: inline-block;
+          }
+          i {
+            margin-right: 0;
+            display: inline-block;
+          }
+          &[data-toggle="collapse"]::after {
+            display: none;
+          }
+        }
+      }
+      .sidebar-brand {
+        .sidebar-brand-icon i {
+          font-size: 2rem;
+        }
+        .sidebar-brand-text {
+          display: none;
+        }
+      }
+      .sidebar-heading {
+        text-align: center;
+      }
+    }
+    .sidebar-heading {
+      text-align: left;
+    }
+  }
+
+  //Pages
+
+  //Dashboard
+  .profile-account-container {
+    padding-right: 0px;
+  }
+
+  .share-dividend-container {
+    padding-left: 0px;
+  }
+
+  //Login
+  .sms-login-container {
+    padding: 3em;
+    .row {
+      .sms-login-form {
+        padding-left: 3em;
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-color: var(--default-border);
+      }
+      .sms-logo {
+        img {
+          max-width: 200px;
+        }
+      }
+    }
+  }
+
+  //Tips
+  .intro-container {
+    padding-top: 50px;
+
+    .intro-illustration {
+      max-width: 190px;
+      position: absolute;
+      right: 1.5em;
+      top: -50px;
+    }
+  }
+
+  // Contact
+  .contact-container {
+    .sms-card {
+      padding-bottom: 4em !important;
+    }
+    #contact-illustration {
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      z-index: 1;
+      width: 30%;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  // Buy Order
+
+  .buy-order-entry-container {
+    padding-right: 0em;
+  }
+
+  .share-status-container {
+    padding-left: 0em;
+
+    .sms-card-info-secondary {
+      padding-bottom: 8em !important;
+
+      #order-illustrations {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        z-index: 1;
+        width: 60%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  //Dividend Page
+
+  .dividend-container {
+    .link-secondary-text {
+      line-height: 40px;
+    }
+    .primary-btn {
+      float: right;
+    }
+  }
+}

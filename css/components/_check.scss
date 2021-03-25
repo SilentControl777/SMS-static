@@ -1,0 +1,48 @@
+//Checkobx
+.checkbox-container {
+  .jcf-checkbox {
+    background: transparent !important;
+    box-shadow: var(--no-box-shadow) !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: var(--default-border) !important;
+    color: var(--input-default-text);
+    height: 18px;
+    width: 18px;
+    transition: all ease 0.3s;
+    vertical-align: text-top;
+
+    span {
+      position: absolute;
+      top: 7px;
+      left: 8px;
+      right: 5px;
+      bottom: 5px;
+      height: 10px;
+      width: 10px;
+      transform: none;
+      border: none;
+      background: var(--primary-100);
+    }
+
+    &:hover {
+      border-color: var(--no-border) !important;
+      transition: all ease 0.3s;
+    }
+
+    &:focus {
+      border-color: var(--no-border) !important;
+      transition: all ease 0.3s;
+    }
+  }
+
+  .jcf-checked {
+    border-color: var(--primary-100) !important;
+    transition: all ease 0.3s;
+  }
+
+  .jcf-label-active {
+    color: var(--input-default-text);
+    transition: all ease 0.3s;
+  }
+}

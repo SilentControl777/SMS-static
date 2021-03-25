@@ -1,0 +1,77 @@
+//Pagination
+.pagination-container {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  clear: both;
+
+  .pagination-count-container {
+    line-height: 28px;
+    margin-right: 1em;
+    color: var(--body-copy-text);
+  }
+
+  .pagination {
+    justify-content: center;
+
+    .page-item {
+      margin: 0em 0.5em;
+
+      .page-link {
+        background: var(--card-background);
+        border-color: var(--default-border);
+        color: var(--body-copy-text);
+        box-shadow: none !important;
+
+        &:hover {
+          background: var(--no-background);
+          border-color: var(--primary-border);
+          color: var(--primary-100);
+        }
+      }
+
+      &.active {
+        .page-link {
+          background: var(--primary-100);
+          border-color: var(--primary-border);
+          color: var(--light-text);
+        }
+      }
+
+      &.disabled {
+        color: var(--diable-text);
+        .page-link {
+          color: var(--disable-text);
+        }
+      }
+    }
+  }
+
+  .pagination-select-container {
+    .pagination-select-btn {
+      height: 28.5px;
+      color: var(--body-copy-text);
+      line-height: 16px;
+    }
+
+    .dropdown-menu {
+      background: var(--surface-background);
+      box-shadow: var(--default-shadow) 0px 8px 24px;
+      border-color: var(--no-border);
+      min-width: fit-content;
+
+      .dropdown-item {
+        color: var(--body-copy-text);
+
+        &:hover {
+          background: var(--primary-25);
+          color: var(--dark-text);
+        }
+        &:focus {
+          background: var(--primary-25);
+          color: var(--dark-text);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+// Overwirte default button styles
+.btn {
+  font-size: 0.9em !important;
+  height: 40px;
+  border-radius: 0.25em !important;
+  box-shadow: none !important;
+}
+
+// Primary Button
+.primary-btn {
+  background: var(--primary-100) !important;
+  border-color: var(--primary-100) !important;
+  color: var(--button-light-text) !important;
+  text-align: center;
+  transition: all ease 0.3s;
+  text-transform: uppercase;
+
+  &:hover {
+    background: transparent !important;
+    border-color: var(--primary-100) !important;
+    color: var(--primary-100) !important;
+    transition: all ease 0.3s;
+  }
+  &:active {
+    background: transparent !important;
+    border-color: var(--primary-100) !important;
+    color: var(--primary-100) !important;
+    transition: all ease 0.3s;
+  }
+}
+
+.primary-rounded-btn {
+  background: var(--primary-100);
+  border-color: var(--primary-100);
+  color: var(--button-light-text) !important;
+  text-align: center;
+  @include rounded(5px);
+  transition: all ease 0.3s;
+  text-transform: uppercase;
+
+  &:hover {
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+    transition: all ease 0.3s;
+  }
+  &:active {
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+    transition: all ease 0.3s;
+  }
+}
+
+// Disable Button
+.disable-btn {
+  background: transparent;
+  color: var(--body-copy-text);
+  text-align: center;
+  transition: all ease 0.3s;
+  text-transform: uppercase;
+
+  &:hover {
+    background: transparent;
+    border-color: var(--disable-border);
+    color: var(--body-copy-text);
+    transition: all ease 0.3s;
+  }
+  &:active {
+    background: transparent;
+    border-color: var(--disable-border);
+    color: var(--body-copy-text);
+    transition: all ease 0.3s;
+  }
+}
+
+.disable-roundedB-btn {
+  background: transparent;
+  border-color: var(--disable-border);
+  color: var(--body-copy-text);
+  text-align: center;
+  @include rounded(5px);
+  transition: all ease 0.3s;
+  text-transform: uppercase;
+
+  &:hover {
+    background: transparent;
+    border-color: var(--disable-border);
+    color: var(--body-copy-text);
+    transition: all ease 0.3s;
+  }
+  &:active {
+    background: transparent;
+    border-color: var(--disable-border);
+    color: var(--body-copy-text);
+    transition: all ease 0.3s;
+  }
+}
+
+// Success Button
+.success-btn {
+  background: var(--success);
+  border-color: var(--success);
+  color: var(--default-text);
+  text-align: center;
+  transition: all ease 0.3s;
+  text-transform: uppercase;
+
+  &:hover {
+    background: transparent;
+    border-color: var(--success);
+    color: var(--success);
+    transition: all ease 0.3s;
+  }
+  &:active {
+    background: transparent;
+    border-color: var(--success);
+    color: var(--success);
+    transition: all ease 0.3s;
+  }
+}
+
+.success-rounded-btn {
+  background: var(--success);
+  border-color: var(--success);
+  color: var(--default-text);
+  text-align: center;
+  @include rounded(5px);
+  transition: all ease 0.3s;
+  text-transform: uppercase;
+
+  &:hover {
+    background: transparent;
+    border-color: var(--success);
+    color: var(--success);
+    transition: all ease 0.3s;
+  }
+  &:active {
+    background: transparent;
+    border-color: var(--success);
+    color: var(--success);
+    transition: all ease 0.3s;
+  }
+}
+
+// Danger Button
+.error-btn {
+  background: var(--error);
+  border-color: var(--error);
+  color: var(--default-text);
+  text-align: center;
+  transition: all ease 0.3s;
+  text-transform: uppercase;
+
+  &:hover {
+    background: transparent;
+    border-color: var(--error);
+    color: var(--error);
+    transition: all ease 0.3s;
+  }
+  &:active {
+    background: transparent;
+    border-color: var(--error);
+    color: var(--error);
+    transition: all ease 0.3s;
+  }
+}
+
+.error-rounded-btn {
+  background: var(--error);
+  border-color: var(--error);
+  color: var(--default-text);
+  text-align: center;
+  @include rounded(5px);
+  transition: all ease 0.3s;
+  text-transform: uppercase;
+
+  &:hover {
+    background: transparent;
+    border-color: var(--error);
+    color: var(--error);
+    transition: all ease 0.3s;
+  }
+  &:active {
+    background: transparent;
+    border-color: var(--error);
+    color: var(--error);
+    transition: all ease 0.3s;
+  }
+}
+
+// Warning Button
+.warning-btn {
+  background: var(--warning);
+  border-color: var(--warning);
+  color: var(--default-text);
+  text-align: center;
+  transition: all ease 0.3s;
+  text-transform: uppercase;
+
+  &:hover {
+    background: transparent;
+    border-color: var(--warning);
+    color: var(--warning);
+    transition: all ease 0.3s;
+  }
+  &:active {
+    background: transparent;
+    border-color: var(--warning);
+    color: var(--warning);
+    transition: all ease 0.3s;
+    text-transform: uppercase;
+  }
+}
+
+.warning-rounded-btn {
+  background: var(--warning);
+  border-color: var(--warning);
+  color: var(--default-text);
+  text-align: center;
+  @include rounded(5px);
+  transition: all ease 0.3s;
+  text-transform: uppercase;
+
+  &:hover {
+    background: transparent;
+    border-color: var(--warning);
+    color: var(--warning);
+    transition: all ease 0.3s;
+  }
+  &:active {
+    background: transparent;
+    border-color: var(--warning);
+    color: var(--warning);
+    transition: all ease 0.3s;
+  }
+}

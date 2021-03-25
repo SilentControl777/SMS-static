@@ -1,0 +1,30 @@
+//Input
+.primary-input {
+  font-size: 0.95em !important;
+  background: transparent !important;
+  box-shadow: var(--no-box-shadow);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--no-border);
+  color: var(--input-default-text);
+  transition: all ease 0.3s;
+  border-radius: 0.25em;
+  margin-bottom: 1em;
+  height: 40px;
+  box-shadow: var(--default-shadow) 0px 8px 24px;
+
+  &:hover {
+    border-color: var(--primary-75);
+    transition: all ease 0.3s;
+  }
+
+  &:focus {
+    border-color: var(--primary-75);
+    transition: all ease 0.3s;
+    box-shadow: none !important;
+    color: var(--input-focus-text);
+  }
+  &:disabled {
+    border: none!important;
+  }
+}

@@ -1,0 +1,117 @@
+// Primary Select
+.jcf-disabled {
+  border: none!important;
+}
+.jcf-select {
+  width: 100%;
+  background: transparent !important;
+  font-size: 0.9em;
+  box-shadow: var(--no-box-shadow);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--no-border);
+  transition: all ease 0.3s;
+  border-radius: 0.25em;
+  height: 40px;
+  box-shadow: var(--default-shadow) 0px 8px 24px;
+
+  .jcf-select-text,
+  .jcf-select-opener {
+    line-height: 40px;
+    padding: 0em 0.2em;
+    font-weight: 400;
+    display: block;
+    cursor: pointer;
+
+    span {
+      color: var(--placeholder-text);
+    }
+  }
+
+  .jcf-select-opener {
+    &::after {
+      border-top: 0.3em solid var(--placeholder-text) !important;
+    }
+
+    &:hover {
+      background: #e6e6e6;
+    }
+  }
+
+  .jcf-option-optionText {
+    color: var(--input-default-text) !important;
+    cursor: pointer;
+    font-size: 1.065em;
+  }
+
+  .jcf-focus,
+  .jcf-focus *,
+  .jcf-select-drop-content {
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: var(--no-border) !important;
+  }
+
+  .jcf-select-drop .jcf-hover,
+  .jcf-list-box .jcf-selected {
+    background: var(--primary-25);
+    color: var(--dark-text) !important;
+  }
+
+  .jcf-option {
+    display: block;
+    width: 100%;
+    padding: 0.25em 1.5em;
+    clear: both;
+    font-weight: 400;
+    color: var(--body-copy-text);
+    text-align: inherit;
+    white-space: nowrap;
+    background: transparent;
+    border: 0;
+  }
+
+  .jcf-select-drop {
+    float: left;
+    min-width: 10em;
+    padding: 0.5em 0;
+    margin: 0.125em 0 0;
+    font-size: 0.85em;
+    color: var(--input-default-text);
+    text-align: left;
+    list-style: none;
+    background: transparent;
+    background-clip: padding-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--no-border);
+    border-radius: 0.25em;
+    background: var(--surface-background);
+    box-shadow: var(--default-shadow) 0px 8px 24px;
+
+    .jcf-list {
+      background: var(--default-background);
+      font-size: 0.95em;
+      line-height: 25px;
+
+      .jcf-list-content {
+        .jcf-selected {
+          color: var(--primary-100) !important;
+          cursor: none;
+          pointer-events: none;
+
+          &:hover {
+            background: none;
+          }
+        }
+      }
+    }
+  }
+
+  &:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary-75) !important;
+    transition: all ease 0.3s;
+  }
+}
